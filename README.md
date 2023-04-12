@@ -28,7 +28,7 @@ Dataset used is the IMDb dataset. The Internet Movie Database contains movie rev
 ## Goals of Analysis
 **The aim of the Analysis are as follows:**
 
-- To explore the dataset in order to gain insights on the relationships between the feature variable'text' and the outcome variable 'label' of the dataset and draw inferences.
+- To explore the dataset in order to gain insights on the relationships between the feature variable - 'text' and the outcome variable - 'label' of the dataset and draw inferences.
 - To investigate the size of the dataset to ascertain the amount of the dataset required and to decide the amount of data that should be dropped or be used for further analysis.
 - Apply two major Supervised Machine Learning methods for transformers employed for Sentiment Analysis (“distilbert-base-cased” and “bert-base-cased”) on the selected dataset to give a clearer picture for predicting the sentiment of a text if is is POSITIVE or NEGATIVE.
 - Use Confusion matrix and Accuracy scores to confirm the effectiveness of the models.
@@ -37,13 +37,13 @@ Dataset used is the IMDb dataset. The Internet Movie Database contains movie rev
 ## Installation
 **To run the application, follow the steps below.**
 It is expected that python is already installed on your system (Minimum Python version is 3.6.6).
--  If you are interested in running the Jupyter notebook on your local system, you can follow the next step otherwise upload the notebook files to Google Colab. Installing Jupyter with pip. Open command prompt or terminal and type the following: 
+-  If you are interested in running the Jupyter notebook on your local system, you can follow the below steps otherwise upload the notebook files to Google Colab. **Installing Jupyter with pip. Open command prompt or terminal and type the following: 
 `pip3 install --upgrade pip`; to ensure that you have the current version of pip;
-`pip3 install jupyter`; to install Jupyter Notebook.
+`pip3 install jupyter`; to install Jupyter Notebook.**
 - Clone or download the repository into your system.
 - Navigate or cd into the folder containing the Jupyter notebook files 'notebook_files' in command prompt or terminal.
 - Install the required libraries needed for the application if they are not already installed (See libraries section.
-- Run the command: `jupyter notebook` or python `python -m notebook` to open the notebook in the browser. Select the jupyter file to see the program and to start running the application `CETM46_NLP_tasks_with_Transformers.ipynb`, 'CETM46_text_classification_bert.ipynb' and 'CETM46_text_classification_distilbert.ipynb'. 
+- Run the command: `jupyter notebook` or python `python -m notebook` to open the notebook in the browser. Select the jupyter file to see the program and to start running the application 'CETM46_NLP_tasks_with_Transformers.ipynb', 'CETM46_text_classification_bert.ipynb' and 'CETM46_text_classification_distilbert.ipynb'. 
 
 ## Libraries
 **Install the following libraries from the command prompt/terminal if not already installed or directly from the jupyter notebook cells:**
