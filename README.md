@@ -16,7 +16,7 @@ The Data exploration and machine learning was ran using Google Colab notebook. T
 
 - [Dataset](#Dataset)
 - [Goals of Analysis](#Goals-of-Analysis)
-- [Installation](#installation)
+- [Notebook Installation](#Notebook-Installation)
 - [Libraries](#Libraries)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -43,7 +43,7 @@ It is expected that python is already installed on your system (Minimum Python v
 - Clone or download the repository into your system.
 - Navigate or cd into the folder containing the Jupyter notebook files 'notebook_files' in command prompt or terminal.
 - Install the required libraries needed for the application if they are not already installed (See libraries section.
-- Run the command: `jupyter notebook` or python `python -m notebook` to open the notebook in the browser. Select the jupyter file to see the program and to start running the application 'CETM46_NLP_tasks_with_Transformers.ipynb', 'CETM46_text_classification_bert.ipynb' and 'CETM46_text_classification_distilbert.ipynb'. 
+- Run the command: `jupyter notebook` or enter `python -m notebook` to open the notebook in the browser. Select the jupyter file to see the program and to start running the application 'CETM46_NLP_tasks_with_Transformers.ipynb', 'CETM46_text_classification_bert.ipynb' and 'CETM46_text_classification_distilbert.ipynb'. 
 
 ## Libraries
 **Install the following libraries from the command prompt/terminal if not already installed or directly from the jupyter notebook cells:**
