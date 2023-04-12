@@ -87,17 +87,17 @@ There are suitable educational product use cases that was employed in the produc
 
 ## Application Interfaces
 
-1. 1_🏠_Homepage
+1_🏠_Homepage
 
 ![figure 1](images/01_Corr_Heat_Map.jpg)
 Figure 1
 
-2. 2_📚_Text_Classification
+2_📚_Text_Classification
 
 ![figure 2](images/02_Data_Dist_Boxplot.jpg)
 Figure 2
 
-3. 3_📋_Summarizer
+3_📋_Summarizer
 
 ![figure 3](images/summerizer.jpg)
 Figure 3
