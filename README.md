@@ -16,7 +16,7 @@ The Data exploration and machine learning was ran using Google Colab notebook. T
 
 - [Dataset](#Dataset)
 - [Goals of Analysis](#Goals-of-Analysis)
-- [Notebook Installation](#Notebook-Installation)
+- [Running Notebook](#Running-Notebook)
 - [Libraries](#Libraries)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -34,7 +34,7 @@ Dataset used is the IMDb dataset. The Internet Movie Database contains movie rev
 - Use Confusion matrix and Accuracy scores to confirm the effectiveness of the models.
 - Employ different Machine Learning Models used in NLP for displaying the outcome of various use cases popular among educational products.
 
-## Installation
+## Running Notebook
 **To run the application, follow the steps below.**
 It is expected that python is already installed on your system (Minimum Python version is 3.6.6).
 -  If you are interested in running the Jupyter notebook on your local system, you can follow the below steps otherwise upload the notebook files to Google Colab. **Installing Jupyter with pip. Open command prompt or terminal and type the following: 
