@@ -19,7 +19,8 @@ The Data exploration and machine learning was ran using Google Colab notebook. T
 - [Running Notebook](#Running-Notebook)
 - [Running Application](#Running-Application)
 - [Libraries](#Libraries)
-- [Usage](#usage)
+- [Use Cases](#Use-Cases)
+- [Interfaces](#Application-Interfaces)
 - [Credits](#credits)
 
 ## Dataset
@@ -75,21 +76,30 @@ To run the application locally, follow the steps below:
 
 You can check the version of the module already installed by using the command: pip show [modulename].
 
-## Usage
-After installing all the libraries and opening the jupyter notebook in a browser (except if you are using the Anaconda version), You can view the outcome of the program directly by running the cells of the notebook from top to bottom. Below are some of the screen shots of the application.
-1. Heatmap showing relationships of the features.
+## Use Cases
+There are suitable educational product use cases that was employed in the product. Each of these categories was created after researching the impact of its outcomes on the educational system. The NLP use cases are: 
+•	Classifying whole sentences 
+•	Classifying each word in a sentence (Named Entity Recognition) 
+•	Answering a question given a context 
+•	Text summarization 
+•	Fill in the blanks (Sentence completion) 
+•	Translating from one language to another 
 
-![figure 1](Screenshots/01_Corr_Heat_Map.jpg)
+## Application Interfaces
+
+1. 1_🏠_Homepage
+
+![figure 1](images/01_Corr_Heat_Map.jpg)
 Figure 1
 
-2. Boxplot showing the different distribution of the features.
+2. 2_📚_Text_Classification
 
-![figure 2](Screenshots/02_Data_Dist_Boxplot.jpg)
+![figure 2](images/02_Data_Dist_Boxplot.jpg)
 Figure 2
 
-3. Cummulative variance showing threshold of Principal Components.
+3. 3_📋_Summarizer
 
-![figure 3](Screenshots/03_Cumm_Var_Showing_Threshold.jpg)
+![figure 3](images/summerizer.jpg)
 Figure 3
 
 4. Barplot showing the variations of the two Principal Components.
@@ -144,5 +154,5 @@ Figure 13
 
 ## Credits
 
-This Project was created by Okeoma Ihunwo as a Final Capstone for HyperionDev Data Science Bootcamp - February 2023 [GitHub profile](https://github.com/Okeoma/)
+This Project was created by Faith OsarumwenseEnyi as a requirement for the completion of the course assessment: Assignment 2 (CETM46 - Data Science Product Development - 2023/2023 session)
 
