@@ -1,15 +1,16 @@
 # NLP-Product
 Application of Text Transformers in the Education Sector
 
-# HyperionDev-DS-Final_Capstone_PCA_Clustering
-This is the final capstone of the HyperionDev Data Science bootcamp programme. This final project was on the application of Unsupervised Machine Learning (Clustering) techniques on a US arrest dataset containing three major crimes of Murder, Assault, and Rape per a thousand residents with their Urban population in percentage during a statistic done in 1973 for each of the 50 states in the US.
+# Data Science Product Development on Text Transformers in the Educational Sector
+This is the final Assignment which is a follow-up of the first Assignment on Literature Review. This project is on developing a data science product prototype and it cumulated with a write-up of a report about the design, development and management of the prototype and development of the project.
 
 ### Description
-The project used the application of two clustering techniques; Hierarchical also known as Agglomerative clustering and K-means clustering to analyze the USArrest dataset in the grouping of states according to the degree of crime (either high crime zone or low crime zone). 
+The Data science NLP product was built with text transformers. There are suitable NLP machine learning models that are effective for use in the education sector. Some of them were used in developing the product.
 
-This project is important because it shows how to look at a problem in a simplified form especially when there are a lot of features in a dataset thereby making it difficult to manually check and select the most impactful features that are required for further analysis. This is why a reduction analysis was introduced in the process. Although the dataset used did not have a lot of columns (only five), it was only for demonstration of the process of feature reduction.
+The programming language that was used for developing the NLP product is Python. This is because Python is a versatile language that can be used for a wide range of tasks, from data processing and web development to scientific computing and machine learning. This flexibility makes it easy to integrate different aspects of a project into a cohesive whole.
 
-Before the clustering models was applied on the dataset, a technique used for feature reduction, Principal Component Analysis (PCA) was applied to reduce the features to two instead of the initial four to ease the process of the machine learning application. The two selected features that showed the most positive impact on the dataset after the PCA and other exploratory analysis was carried out was ‘Murder’ and ‘Assault’. These two features were further explored using the two selected clustering techniques, and the results gotten from their analysis was a representation of the full dataset.  
+In addition, Streamlit was used to design the user interface. This is due to its ease of deployment of machine learning applications onto the web. Streamlit enables developers to deploy their applications to a web server with only a few lines of code, making sharing their work easier. 
+The Data exploration and machine learning was ran using Google Colab notebook. The models were saved in the local system and the streamlit application was built with .py scripts. The saved models was later used in the streamlit app for processing text and displaying the required results.
 
 ## Table of Contents
 
@@ -22,26 +23,27 @@ Before the clustering models was applied on the dataset, a technique used for fe
 
 ## Dataset
 
-The USArrest.csv dataset contains statistics, in arrest per 100,000 residents for assault, murder and rape in each of the 50 US States in 1973. The percentage of the population living in urban areas is also given.
+Dataset used is the IMDb dataset. The Internet Movie Database contains movie reviews that were used to train text transformers on sentiment analysis. The dataset can be downloaded from the IMDb website: https://huggingface.co/datasets/imdb. The dataset was used to train  pre-train transformer models, “distilbert-base-cased” and “bert-base-cased” and any of the two models is to be used for sentiment analysis for text classification.
 
 ## Goals of Analysis
 **The aim of the Analysis are as follows:**
 
-- To explore the dataset in order to gain insights on the relationships between the features of the dataset and draw inferences.
-- To investigate the impact of each individual feature in the dataset using PCA to understand it's impact and to decide if it should be dropped or be used for further analysis.
-- Apply two major Unsupervised Machine Learning methods/ Clustering technigues (Agglomerative and K-means both from Scikit Learn library) on the selected features to give a clearer picture of the crime rates in the states using the most effective parameters and group them according to crime zones; high or low.
-- Finally, compare the two Clustering methods used to see their similarities and differences.
+- To explore the dataset in order to gain insights on the relationships between the feature variable'text' and the outcome variable 'label' of the dataset and draw inferences.
+- To investigate the size of the dataset to ascertain the amount of the dataset required and to decide the amount of data that should be dropped or be used for further analysis.
+- Apply two major Supervised Machine Learning methods for transformers employed for Sentiment Analysis (“distilbert-base-cased” and “bert-base-cased”) on the selected dataset to give a clearer picture for predicting the sentiment of a text if is is POSITIVE or NEGATIVE.
+- Use Confusion matrix and Accuracy scores to confirm the effectiveness of the models.
+- Employ different Machine Learning Models used in NLP for displaying the outcome of various use cases popular among educational products.
 
 ## Installation
-**To run the application, follow the steps below. If you have Jupyter notebook installed, ignore the first step.**
-It is expected that python is already installed on your system.
--  Installing Jupyter with pip. Open command prompt or terminal and type the following: 
+**To run the application, follow the steps below.**
+It is expected that python is already installed on your system (Minimum Python version is 3.6.6).
+-  If you are interested in running the Jupyter notebook on your local system, you can follow the next step otherwise upload the notebook files to Google Colab. Installing Jupyter with pip. Open command prompt or terminal and type the following: 
 `pip3 install --upgrade pip`; to ensure that you have the current version of pip;
 `pip3 install jupyter`; to install Jupyter Notebook.
 - Clone or download the repository into your system.
-- Navigate or cd into the folder containing the files of the program in command prompt or terminal
+- Navigate or cd into the folder containing the Jupyter notebook files 'notebook_files' in command prompt or terminal.
 - Install the required libraries needed for the application if they are not already installed (See libraries section.
-- Run the command: `jupyter notebook` or python `python -m notebook` to open the notebook in the browser. Select the jupyter file to see the program to start running the application `final_capstone.ipynb`. 
+- Run the command: `jupyter notebook` or python `python -m notebook` to open the notebook in the browser. Select the jupyter file to see the program and to start running the application `CETM46_NLP_tasks_with_Transformers.ipynb`, 'CETM46_text_classification_bert.ipynb' and 'CETM46_text_classification_distilbert.ipynb'. 
 
 ## Libraries
 **Install the following libraries from the command prompt/terminal if not already installed or directly from the jupyter notebook cells:**
