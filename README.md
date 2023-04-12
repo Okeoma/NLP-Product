@@ -17,6 +17,7 @@ The Data exploration and machine learning was ran using Google Colab notebook. T
 - [Dataset](#Dataset)
 - [Goals of Analysis](#Goals-of-Analysis)
 - [Running Notebook](#Running-Notebook)
+- [Running Application](#Running-Application)
 - [Libraries](#Libraries)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -35,15 +36,24 @@ Dataset used is the IMDb dataset. The Internet Movie Database contains movie rev
 - Employ different Machine Learning Models used in NLP for displaying the outcome of various use cases popular among educational products.
 
 ## Running Notebook
-**To run the application, follow the steps below.**
+**To run the Jupyter Notebook, follow the steps below.**
 It is expected that python is already installed on your system (Minimum Python version is 3.6.6).
 -  If you are interested in running the Jupyter notebook on your local system, you can follow the below steps otherwise upload the notebook files to Google Colab. **Installing Jupyter with pip. Open command prompt or terminal and type the following: 
 `pip3 install --upgrade pip`; to ensure that you have the current version of pip;
 `pip3 install jupyter`; to install Jupyter Notebook.**
 - Clone or download the repository into your system.
 - Navigate or cd into the folder containing the Jupyter notebook files 'notebook_files' in command prompt or terminal.
-- Install the required libraries needed for the application if they are not already installed (See libraries section.
+- Install the required libraries needed for the application if they are not already installed (See the 'libraries' section).
 - Run the command: `jupyter notebook` or enter `python -m notebook` to open the notebook in the browser. Select the jupyter file to see the program and to start running the application 'CETM46_NLP_tasks_with_Transformers.ipynb', 'CETM46_text_classification_bert.ipynb' and 'CETM46_text_classification_distilbert.ipynb'. 
+
+## Running Application
+To run the application, you are expected to install all the required libraries first. The library names and their versions are located in the requirement.txt file or you can see them in the 'Libraries' section in this README file.
+To run the application locally, follow the steps below:
+- Open command prompt or terminal.
+- Navigate or cd into the folder containing the streamlit application Homepage '1_🏠_Homepage' in command prompt or terminal. Notice the emoji in-between 1 and Homepage. It is used for displaying icons while the application is running. Note: Navigate into the folder: 'streamlit_app'.
+- Install the required libraries needed for the application if they are not already installed (See the 'libraries' section).
+- Run the command: `streamlit run 1_🏠_Homepage.py` or `python -m streamlit run 1_🏠_Homepage.py` from inside the 'streamlit_app' folder to start the application in the browser. **Note: To enter the homepage name in the command prompt or terminal, type 1 and then press the 'Tab' key on the keyboard to select the full name: '1_🏠_Homepage.py' automatically.**
+
 
 ## Libraries
 **Install the following libraries from the command prompt/terminal if not already installed or directly from the jupyter notebook cells:**
