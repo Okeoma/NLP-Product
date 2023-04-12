@@ -50,20 +50,30 @@ It is expected that python is already installed on your system (Minimum Python v
 To run the application, you are expected to install all the required libraries first. The library names and their versions are located in the requirement.txt file or you can see them in the 'Libraries' section in this README file.
 To run the application locally, follow the steps below:
 - Open command prompt or terminal.
-- Navigate or cd into the folder containing the streamlit application Homepage '1_🏠_Homepage' in command prompt or terminal. Notice the emoji in-between 1 and Homepage. It is used for displaying icons while the application is running. Note: Navigate into the folder: 'streamlit_app'.
+- Navigate or cd into the folder containing the streamlit application Homepage '1_🏠_Homepage' in command prompt or terminal. Notice the emoji in-between 1 and Homepage. It is used for displaying icons while the application is running. **Note: Navigate into the folder: 'streamlit_app'.**
 - Install the required libraries needed for the application if they are not already installed (See the 'libraries' section).
 - Run the command: `streamlit run 1_🏠_Homepage.py` or `python -m streamlit run 1_🏠_Homepage.py` from inside the 'streamlit_app' folder to start the application in the browser. **Note: To enter the homepage name in the command prompt or terminal, type 1 and then press the 'Tab' key on the keyboard to select the full name: '1_🏠_Homepage.py' automatically.**
 
 
 ## Libraries
-**Install the following libraries from the command prompt/terminal if not already installed or directly from the jupyter notebook cells:**
-- `pip install numpy`
+**Install the following libraries from the command prompt/terminal if not already installed or directly from the jupyter notebook cells if you plan to run the Jupyter notebook:**
 - `pip install pandas`
-- `pip install seaborn`
 - `pip install matplotlib`
 - `pip install sklearn`
-- `pip install pca`
-- `pip install scipy`
+- `pip install streamlit==1.11.0`
+- `pip install sumy==0.11.0`
+- `pip install spacy==3.5.1`
+- `pip install bs4==0.0.1`
+- `pip install wordcloud==1.8.2.2`
+- `pip install transformers[sentencepiece]` 
+- `pip spacy download en_core_web_sm`
+- `pip install pytorch-pretrained-bert`
+- `pip install st-annotated-text`
+- pip install streamlit-extras`
+- `python -c "import nltk; nltk.download('punkt')"`
+**Depending on your python version, you can include the command `python -m` or `py -m` in front of the above installation commands to get a compatible version of python that is suitable for the application.**
+
+You can check the version of the module already installed by using the command: pip show [modulename].
 
 ## Usage
 After installing all the libraries and opening the jupyter notebook in a browser (except if you are using the Anaconda version), You can view the outcome of the program directly by running the cells of the notebook from top to bottom. Below are some of the screen shots of the application.
