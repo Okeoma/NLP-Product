@@ -15,12 +15,12 @@ The Data exploration and machine learning was ran using Google Colab notebook. T
 ## Table of Contents
 
 - [Dataset](#Dataset)
-- [Goals of Analysis](#Goals-of-Analysis)
-- [Running Notebook](#Running-Notebook)
-- [Running Application](#Running-Application)
-- [Libraries](#Libraries)
-- [Use Cases](#Use-Cases)
-- [Interfaces](#Application-Interfaces)
+- [Goals of Analysis](#goals-of-analysis)
+- [Running Notebook](#running-notebook)
+- [Running Application](#running-application)
+- [Libraries](#libraries)
+- [Use Cases](#use-cases)
+- [Interfaces](#application-interfaces)
 - [Credits](#credits)
 
 ## Dataset
