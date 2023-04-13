@@ -70,7 +70,7 @@ To run the application locally, follow the steps below:
 - `pip spacy download en_core_web_sm`
 - `pip install pytorch-pretrained-bert`
 - `pip install st-annotated-text`
-- pip install streamlit-extras`
+- `pip install streamlit-extras`
 - `python -c "import nltk; nltk.download('punkt')"`
 **Depending on your python version, you can include the command `python -m` or `py -m` in front of the above installation commands to get a compatible version of python that is suitable for the application.**
 
